@@ -1,0 +1,19 @@
+{
+	"name": "aurora-framework/il8n",
+	"license": "MIT",
+	"minimum-stability": "dev",
+	"authors": [
+		{
+			"name": "VeeeneX",
+			"email": "veeenex@gmai.com"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Aurora\\": "src//"
+		}
+	}
+}

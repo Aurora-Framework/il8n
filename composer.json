@@ -1,6 +1,7 @@
 {
 	"name": "aurora-framework/il8n",
 	"license": "MIT",
+	"description": "Internalization library",
 	"minimum-stability": "dev",
 	"authors": [
 		{

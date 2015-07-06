@@ -2,7 +2,7 @@
 
 namespace Aurora;
 
-use Aurora\Config\AdapterInterface;
+use Aurora\AdapterInterface;
 use Aurora\Helper\StatefulTrait;
 
 class il8n
@@ -27,8 +27,8 @@ class il8n
 
    public function setLocale($language)
    {
-      if (file_exists($this->Adapter->basePath."/".$this->language."/")) {
-         $this->useLanguage = $this->language;
+      if (file_exists($this->Adapter->basePath."/".$language."/")) {
+         $this->useLanguage = $language;
       } else if (file_exists($this->Adapter->basePath."/".$this->fallbackLanguage."/")) {
          $this->useLanguage = $this->fallbackLanguage;
       } else {

@@ -70,7 +70,6 @@ class il8n
 
    }
 
-
    public function setPath($path)
    {
       $this->Adapter->setBasePath($path);

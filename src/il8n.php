@@ -32,7 +32,7 @@ class il8n
       } else if (file_exists($this->Adapter->basePath."/".$this->fallbackLanguage."/")) {
          $this->useLanguage = $this->fallbackLanguage;
       } else {
-         throw new LanguageFileNotFound;
+         throw new LanguageFileNotFoundException("Language: ${language} wasn't found");
       }
    }
 

@@ -3,11 +3,11 @@
 namespace Aurora;
 
 use Aurora\AdapterInterface;
-use Aurora\Helper\StatefulTrait;
+use Aurora\Helper\ObjectTrait;
 
 class il8n
 {
-   use StatefulTrait;
+   use ObjectTrait;
 
    protected $Adapter;
 
